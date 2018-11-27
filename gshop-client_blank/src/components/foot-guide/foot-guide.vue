@@ -34,7 +34,9 @@
         name: "foot-guide",
       methods:{
           goto(path){
-            //跳转
+            //:是v-bind的缩写（填写属性值）,使用了:就相当与是vue属性了，属性值就直接是vue中的东西
+            //使用vue-router后有了$route(有path，meta等属性)和$router(路由器对象，使用replace,push,back等方法).
+            //@中可以直接传入参数
             this.$router.replace(path)
           }
       }

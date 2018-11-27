@@ -14,6 +14,7 @@
     export default {
       name: "topHeader",
       props:{
+        //vue中直接使用{{}}就能代表使用vue中的内容，{{title}}就是查找vue中的内容，会直接在data,props,(...)中查找
         title:String
       }
     }
